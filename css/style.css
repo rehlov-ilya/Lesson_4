@@ -1,0 +1,145 @@
+/*&display=swap' добавляем при подключении чрез VS Code*/
+@import"null.css";
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans+Narrow:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:ital,wght@1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Play&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poiret+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Mono+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jura:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Creepster&display=swap');/*нет кирилицы*/
+@import url('https://fonts.googleapis.com/css2?family=Pangolin&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bad+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kosugi+Maru&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Marck+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Moo+Lah+Lah&display=swap');/*нет кирилицы*/
+@import url('https://fonts.googleapis.com/css2?family=Holtwood+One+SC&display=swap');/*нет кирилицы*/
+body{
+	text-align: center;
+}
+h1{
+	font-family: "PT Sans Narrow";
+	color: brown;
+	font-size: 50px;
+	text-decoration: overline;
+	text-decoration: underline;
+  }
+	h3{
+	font-family:"Pacifico" ;
+	color: aqua;
+	font-size: 30px;
+	text-decoration: underline;
+	
+	}
+
+		.text1{
+	font-family: "Lobster";
+	color: rgb(226, 170, 17);
+	font-style: italic;
+		}
+		.text2{
+			font-family:"Balsamiq Sans" ;
+			color: brown;
+			font-size: 20px;
+			font-style: oblique;
+		}
+		.text3{
+			font-family:"IBM Plex Serif" ;
+			color: burlywood;
+			text-align: left;
+		}
+		.text4{
+			font-family:"Caveat" ;
+			color: chartreuse;
+			font-size: 30px;
+			text-align: right;
+		}
+		.text5{
+			font-family: "Play";
+			color: #0ab7eb;
+			text-decoration: line-through;
+		}
+		.text6{
+			font-family:"Amatic SC" ;
+			color: crimson;
+			font-size: 30px;
+			text-shadow: 10px 10px 10px black ;
+		}
+		.text7{
+			font-family: "Russo One";
+			color: darkslateblue;
+			font-size: 30px;
+			text-transform: capitalize;
+		}
+		.text8{
+			font-family: "Montserrat Alternates";
+			color: darkorange;
+			text-transform: lowercase;
+			}
+		.text9{
+			font-family: "Press Start 2P";
+			color: darkgoldenrod;
+			text-transform: uppercase;
+			}
+		.text10{
+			font-family: "Poiret One";
+			color: violet;
+			font-size: 25px;
+			line-height: 35px;
+			}
+		.text11{
+			font-family: "Rubik Mono One";
+			color: tomato;
+			text-align: justify;
+			text-indent: 50px;
+			}
+		.text12{
+			font-family: "Jura";
+			color: springgreen;
+			letter-spacing: 30px;
+			}
+		.text13{
+			font-family:"Creepster" ;
+			color: blueviolet;
+			word-spacing: 30px;
+					}
+		.text14{
+			font-family: "Pangolin";
+			color: slategrey;
+			word-spacing: 50px;
+			}
+		.text15{
+			font-family: "Bad Script";
+			color: rgb(74, 73, 85);
+			font-size: 40px;
+				}
+		.text16{
+			font-family: "Kosugi Maru";
+			color: sienna;
+				}
+		.text17{
+			font-family: "Marck Script";
+			color: seagreen;
+				}
+		.text18{
+			font-family: "Moo Lah Lah";
+			color: yellowgreen;
+			font-size: 30px;
+			text-shadow: 10px 5px rgb(25, 131, 43);
+				}
+		.text19{
+			font-family: "Holtwood One SC";
+			color: salmon;
+			text-shadow: 2px 5px rgba(94, 8, 8, 0.493);
+				}
+		
+
+		
+		

@@ -1,0 +1,226 @@
+/* &display=swap */
+
+@import "null.css";
+
+@import url("https://fonts.googleapis.com/css?family=Lato:400,700,900&display=swap");
+
+@font-face {
+	font-family: "CircularStd";
+	src: url("../fonts/CircularStd-Book.woff2") format("woff2"), url("../fonts/CircularStd-Book.woff") format("woff");
+	font-weight: 400;
+	font-style: normal;
+	font-display: swap;
+}
+@font-face {
+	font-family: "CircularStd";
+	src: url("../fonts/CircularStd-BookItalic.woff2") format("woff2"), url("../fonts/CircularStd-BookItalic.woff") format("woff");
+	font-weight: 400;
+	font-style: italic;
+	font-display: swap;
+}
+@font-face {
+	font-family: "CircularStd";
+	src: url("../fonts/CircularStd-Black.woff2") format("woff2"), url("../fonts/CircularStd-Black.woff") format("woff");
+	font-weight: 900;
+	font-style: normal;
+	font-display: swap;
+}
+@font-face {
+	font-family: "CircularStd";
+	src: url("../fonts/CircularStd-Medium.woff2") format("woff2"), url("../fonts/CircularStd-Medium.woff") format("woff");
+	font-weight: 500;
+	font-style: normal;
+	font-display: swap;
+}
+@font-face {
+	font-family: "CircularStd";
+	src: url("../fonts/CircularStd-Bold.woff2") format("woff2"), url("../fonts/CircularStd-Bold.woff") format("woff");
+	font-weight: 700;
+	font-style: normal;
+	font-display: swap;
+}
+
+body {
+	font-family: "Lato", sans-serif;
+	font-size: 20px;
+}
+
+.title {
+	color: green;
+	font-size: 65px;
+	font-family: "CircularStd", sans-serif;
+}
+.text {
+}
+
+/* ================ Свойства шрифта (Наследуются потомками) ==================== */
+
+/*
+font-family: "Имя шрифта", "Имя шрифта", ...,  тип шрифта
+Устанавливает семейство шрифта
+
+Если название шрифта состоит из 2х и более слов
+заключаем название в кавычки
+
+Типы шрифта:
+serif — шрифты с засечками (антиквенные), типа Times;
+sans-serif — рубленные шрифты (шрифты без засечек или гротески), 
+типичный представитель — Arial;
+cursive — курсивные шрифты;
+fantasy — декоративные шрифты;
+monospace — моноширинные шрифты, ширина каждого символа 
+в таком семействе одинакова (шрифт Courier).
+*/
+
+/*
+font-size
+Определяет размер шрифта элемента.
+По умолчанию 16px
+*/
+
+/*
+font-style:
+Определяет начертание шрифта — обычное, курсивное или наклонное.
+normal - Обычное начертание текста.
+italic - Курсивное начертание. 
+oblique - Наклонное начертание. Курсив и наклонный 
+шрифт при всей их похожести не одно и то же. 
+Курсив это специальный шрифт имитирующий рукописный, 
+наклонный же образуется путем наклона обычных знаков вправо. 
+*/
+
+/*
+font-weight:
+Устанавливает насыщенность шрифта.
+100 - thin
+300 - Light
+400 - normal
+500 - medium
+600 - semibold
+700 - bold
+900 - black
+*/
+
+/* =================== Свойства текста ===================================== */
+
+/*
+color (наследуется)
+Определяет цвет текста. Для задания цветов обычно 
+используются числа в шестнадцатеричном коде, 
+либо с помощью RGB.
+*/
+
+.text {
+	color: #f03e3e;
+}
+
+/*
+text-align (наследуется)
+Определяет горизонтальное выравнивание текста и строчный объектов
+ в пределах элемента. 
+center - Выравнивание текста по центру.
+justify - Выравнивание по ширине, что означает 
+одновременное выравнивание по левому и правому краю. 
+Чтобы произвести это действие браузер в этом случае 
+добавляет пробелы между словами.
+left - Выравнивание текста по левому краю. 
+right - Выравнивание текста по правому краю.
+*/
+
+.text {
+	/* text-align: center; */
+}
+
+.block {
+	/* text-align: center; */
+}
+
+/*
+text-decoration (наследуется)
+Добавляет оформление текста в виде его подчеркивания, 
+перечеркивания, линии над текстом и мигания. 
+Одновременно можно применить более одного стиля, перечисляя значения через пробел. Это свойство наследуется и может принимать значения:
+line-through - Создает перечеркнутый текст.
+overline - Линия проходит над текстом.
+underline - Устанавливает подчеркнутый текст. 
+none - Отменяет все эффекты, в том числе и подчеркивания у ссылок, которое задано по умолчанию.
+*/
+
+.text {
+	/* text-decoration: underline; */
+}
+
+/*
+
+text-shadow: горизонтальное_смещение вертикальное_смещение размер цвет;
+(наследуется)
+Добавляет тень к тексту.
+Прмер text-shadow: 1px 1px 1px #000;
+*/
+
+.text {
+	/* text-shadow: 10px 10px 30px rgb(202, 17, 17), 5px 2px 10px rgb(10, 3, 3); */
+}
+
+/*
+
+text-transform (наследуется)
+Управляет преобразованием текста в заглавные или прописные символы.
+capitalize  - Первый символ каждого слова в предложении будет заглавным. Остальные символы свой вид не меняют.
+lowercase - Все символы текста становятся строчными (нижний регистр). 
+uppercase - Все символы текста становятся прописными (верхний регистр).
+none - Не меняет регистр символов.
+*/
+
+.text {
+	/* text-decoration: line-through; */
+}
+
+.link-menu {
+	/* text-transform: uppercase; */
+}
+
+/*
+line-height (наследуется)
+Устанавливает межстрочный интервал текста. 
+Широко применяется при верстке текста.
+*/
+
+/* 
+Если в макете указаны px делим это значение 
+на размер шрифта этого объекта и указываем через точку без единиц
+*/
+
+.text {
+	/* line-height: 1.5; */
+}
+
+/*
+text-indent
+Устанавливает величину отступа первой строки блока текста. При меняется, если нам нужно создать что-то типа красной строки.
+
+letter-spacing
+Определяет интервал между символами (буквами). Используется когда нужно разрядить текст.
+
+white-space
+Управляет свойствами пробелов между словами. Пименяется в основном со значением 
+nowrap которое запрещает перенос строки. Таким образом весь текст отображается в одну строку и не ломается. Значение normal вернет все как было.
+
+word-spacing
+Устанавливает интервал между словами.
+*/
+
+.text {
+	/* text-indent: 25px; */
+	/* letter-spacing: 10px; */
+	/* word-spacing: 20px; */
+	/* white-space: nowrap; */
+}
+
+ul.list > li {
+	color: red;
+}
+
+.link {
+	color: red;
+}
